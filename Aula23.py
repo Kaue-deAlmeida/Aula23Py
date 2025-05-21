@@ -12,11 +12,11 @@ def jogo():
 
 jogo()
 
-megacerto = [45]
+megacerto = []
 
 
 def randomico():
-    for i in range(5):
+    for i in range(6):
         numqualquer = random.randint(a=1, b=60)
         megacerto.append(numqualquer)
 
